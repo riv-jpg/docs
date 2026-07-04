@@ -1,0 +1,71 @@
+---
+title: "How Matchmaking Works in Stubly Baseball"
+sidebarTitle: "Matchmaking"
+description: "Learn how Stubly Baseball matches you with opponents in Quick Play and Ranked mode, including skill-based pairing, wait times, and what to do if matches fail."
+---
+
+Stubly Baseball uses a skill-based matchmaking (SBMM) system to pair you with opponents of similar ability, keeping matches competitive and fair from the very first pitch. Understanding how SBMM works helps you set expectations around wait times and know exactly what happens from the moment you tap **Find Match** to the opening coin flip.
+
+## How SBMM Works
+
+The matchmaking algorithm pulls from different data depending on the mode you're queuing for:
+
+- **Quick Play** — The system evaluates your overall win rate and your performance across your **last 20 games**. This keeps casual matches balanced without locking you into a rigid number.
+- **Ranked Play** — Matching is based strictly on your **current Rank Points (RP) and tier**, so you always face opponents at or near your competitive level.
+- **Search radius expansion** — If no suitable opponent is found, the system widens its search every **10 seconds** to reduce wait times while still prioritizing close skill matches.
+- **New player calibration** — First-time players enter a dedicated **calibration pool** for their first 5 Quick Play games before joining the main SBMM pool.
+
+## The Matchmaking Flow
+
+<Steps>
+  <Step title="Tap 'Find Match'">
+    From the main menu, navigate to the **Quick Play** or **Ranked** card and tap **Find Match** to enter the queue.
+  </Step>
+  <Step title="Watch the search indicator">
+    A search indicator appears showing an estimated wait time that refreshes every **5 seconds**. The timer climbs as the system expands its search radius if needed.
+  </Step>
+  <Step title="Enter the pre-match lobby">
+    When an opponent is found, a pre-match lobby loads showing both players' usernames, records, and a **10-second countdown**.
+  </Step>
+  <Step title="Accept the match">
+    Both players must tap **Accept** within 10 seconds. If either player misses the window, the match is cancelled and you're automatically re-queued without penalty.
+  </Step>
+  <Step title="Coin flip — play ball">
+    The match kicks off with a coin flip that determines who bats first in the opening inning. The game loads immediately after.
+  </Step>
+</Steps>
+
+## Network Requirements
+
+A stable connection makes a significant difference in online play. Meet the minimums and aim for the recommended specs for the smoothest experience:
+
+| | Download | Upload | Ping |
+|---|---|---|---|
+| **Minimum** | 5 Mbps | 2 Mbps | < 100 ms |
+| **Recommended** | 25 Mbps | — | < 50 ms |
+
+Stubly operates region-based servers across **four regions** — North America, Europe, Asia-Pacific, and South America. The game automatically selects your nearest region at launch, but you can override this any time.
+
+<Tip>
+  Manually set your preferred server region under **Settings → Network → Server Region** if you're traveling, experiencing high ping, or want to queue into a specific region's player pool. Switching regions may increase wait times but can significantly improve connection quality.
+</Tip>
+
+## If Matchmaking Fails
+
+Occasionally matchmaking won't find a suitable opponent. Here's how to handle it:
+
+<Accordion title="No match found after 3 minutes">
+  If the system can't find an opponent within **3 minutes**, the search auto-cancels and you receive a **'No Match Found'** notification. No penalty is applied. Wait a few minutes and try again — lower-population times (late night in your region) tend to have longer queues.
+</Accordion>
+
+<Accordion title="Yellow Wi-Fi icon in the top bar">
+  A yellow Wi-Fi icon means your current ping is **above 150 ms**. This won't prevent you from queuing, but you may experience increased input lag during the match. Try moving closer to your router, switching from Wi-Fi to a wired connection, or changing your server region before re-queuing.
+</Accordion>
+
+<Accordion title="Persistent matchmaking issues">
+  If matchmaking fails repeatedly across multiple attempts, check the **Stubly status page** for any active server outages or maintenance windows. You can find the status page at the link in the main menu under **Settings → Support → Server Status**.
+</Accordion>
+
+<Warning>
+  Repeatedly declining match accepts — without cancelling your queue — can trigger a **short matchmaking cooldown**. If you need to step away, cancel your queue manually before leaving the matchmaking screen.
+</Warning>

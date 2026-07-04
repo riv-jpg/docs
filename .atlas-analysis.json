@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Stubly Baseball",
+  "projectDescription": "A high-quality 3D baseball game featuring player creation, stat upgrades, an in-game shop, online multiplayer, batting cages, and a full story mode.",
   "theme": "almond",
-  "name": "Stubly Baseball",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -93,23 +91,17 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "/support/contact"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Play Now",
-      "href": "https://stubly.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/stubly",
-      "discord": "https://discord.gg/stubly"
-    }
-  }
+  "keyFeatures": [
+    "High-quality 3D baseball gameplay",
+    "Card-based main menu with cinematic UI",
+    "Player creator with full appearance customization",
+    "Stat upgrade system using earned tokens",
+    "In-game shop for bats, gloves, and cosmetics",
+    "Online multiplayer Quick Play with matchmaking",
+    "Batting Cages practice mode",
+    "Story Mode with progression and narrative",
+    "Leaderboards and ranked online play",
+    "Friends list and private matches"
+  ],
+  "publicApiSurface": []
 }
